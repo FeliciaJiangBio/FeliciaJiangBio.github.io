@@ -155,6 +155,7 @@ analytics:
 
 # Reading Files
 include:
+  - html
   - .htaccess
   - _pages
   - files
