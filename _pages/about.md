@@ -67,13 +67,14 @@ Here are some of the key open-source projects I've been leading:
   </tr>
 </table>
 </p>
-![3DisoTarget]
 
 ---
 
 ### Hobbies & Interests
 
-Outside of my research, I enjoy **swimming**, **fitness**, and **reading**. I also have a keen interest in **critical thinking** and fostering **interdisciplinary communication and collaboration**.
+Outside of my research, I enjoy **swimming**, **fitness**, and **reading**. 
+
+I also have a keen interest in **critical thinking** and fostering **interdisciplinary communication and collaboration**.
 
 
 
