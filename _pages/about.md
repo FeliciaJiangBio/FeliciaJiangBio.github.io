@@ -75,6 +75,7 @@ Here are some of the key open-source projects I've been leading:
 Outside of my research, I enjoy **swimming**, **fitness**, and **reading**. 
 
 I also have a keen interest in **critical thinking** and fostering **interdisciplinary communication and collaboration**.
+I warmly welcome potential collaborations or interdisciplinary discussions. Please feel free to reach out (**tjiang@surgery.edu.cuhk.hk**) **if you are interested in my research or would like to invite me for a talk or academic exchange.**
 
 
 
