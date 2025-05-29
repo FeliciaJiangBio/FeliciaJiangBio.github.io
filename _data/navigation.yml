@@ -12,13 +12,16 @@ main:
     url: /publications/
 
   - title: "Talks"
-    url: /3DisoGalaxy/      
+    url: /talks/      
 
   - title: "3DisoGalaxy"
-    url: /3DisoGalaxy/    
-        
+    url: /3DisoGalaxy/  
+      
   - title: "Blog Posts"
     url: /year-archive/
+
+  - title: "Posters"
+    url: /posters/  
     
   - title: "CV"
     url: /cv/
