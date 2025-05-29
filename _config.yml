@@ -26,9 +26,9 @@ author:
   name             : "Felicia Jiang"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D. candidate in Medicine from Chinese University of Hong Kong"
-  location         : "Earth"
+  location         : "Shatin, Hong Kong"
   employer         : "Chinese University of Hong Kong"
-  uri              : # URL
+  uri              : https://feliciajiangbio.github.io/
   email            : "taojiangcuhk@gmail.com" 
 
   # Academic websites
