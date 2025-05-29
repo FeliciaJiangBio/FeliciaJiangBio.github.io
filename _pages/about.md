@@ -6,12 +6,12 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a 2nd-year PhD candidate at the [Department of Surgery]([https://www.med.cuhk.edu.hk/](https://www.surgery.cuhk.edu.hk/), CUHK Medical School, where I develop computation pipeline and machine learning approaches for cancer genomics under the supervision of [Prof. Xin WANG](https://xinwlab.netlify.app/). My research focuses on:
+I am a 2nd-year PhD candidate at the Department of Surgery([https://www.med.cuhk.edu.hk/](https://www.surgery.cuhk.edu.hk/), CUHK Medical School, where I develop computation pipeline and machine learning approaches for cancer genomics under the supervision of [Prof. Xin WANG](https://xinwlab.netlify.app/). My research focuses on:
 
-- **Tumor Heterogeneity Analysis** using single-cell sequencing data
+- **Tumor Heterogeneity Analysis** Tumor alternative splicing-induced protein isoform large-scale foldome analysis
 - **Biomarker Discovery** through integrative multi-omics approaches
 - **Clinical Predictive Modeling** with deep learning architectures
-- **Cancer Evolution** reconstruction algorithms
+- **Computation-aided drug desgin** reconstruction algorithms and methods for computation-aided drug (molecules and antibody) screening and design
 
 
 
