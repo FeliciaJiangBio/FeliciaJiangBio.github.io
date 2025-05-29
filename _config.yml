@@ -24,19 +24,19 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Felicia Jiang"
-  pronouns         : # example: "she/her"  
-  bio              : "Ph.D. candidate in Medicine from Chinese University of Hong Kong"
+  pronouns         : "her"  
+  bio              : "Computational Ph.D. candidate in Medicine"
   location         : "Shatin, Hong Kong"
   employer         : "Chinese University of Hong Kong"
   uri              : https://feliciajiangbio.github.io/
   email            : "taojiangcuhk@gmail.com" 
 
   # Academic websites
-  academia         : # URL
+  academia         : "https://scholar.google.com/citations?user=_YT1sPQAAAAJ&hl=en&oi=sra"
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=_YT1sPQAAAAJ&hl=en&oi=sra"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/my-orcid?orcid=0000-0001-8607-6804"
   semantic         : # URL
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
