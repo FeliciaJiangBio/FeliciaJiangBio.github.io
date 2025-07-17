@@ -76,7 +76,7 @@ Here are some of the key open-source projects I've been leading:
     </td>
     <td align="center">
       <a href="https://github.com/FeliciaJiangBio/3DisoDeepPF">
-        <img src="<https://github.com/user-attachments/assets/80d606fc-bc19-446c-b726-bb0d8e69b42c" width="300"><br>
+        <img src="https://github.com/user-attachments/assets/80d606fc-bc19-446c-b726-bb0d8e69b42c" width="300"><br>
         <b>3DisoDeepPF</b>
       </a>
     </td>
