@@ -7,28 +7,17 @@ redirect_from:
   - /about.html
 ---
 
-I am a 2nd-year PhD candidate at the Department of Surgery ([https://www.med.cuhk.edu.hk/](https://www.surgery.cuhk.edu.hk/), CUHK Medical School, where I develop computation pipelines and machine learning approaches for cancer genomics under the supervision of [Prof. Xin WANG](https://xinwlab.netlify.app/). My research focuses on:
+I am a 2nd-year PhD candidate at the Department of Surgery ([https://www.med.cuhk.edu.hk/](https://www.surgery.cuhk.edu.hk/), CUHK Medical School, where I develop computation pipelines and machine learning approaches for cancer genomics under the supervision of [Prof. Xin WANG](https://xinwlab.netlify.app/). 
 
-### 🧬 Protein Structure & Evolution  
-Large-scale prediction and comparative analysis using `AlphaFold2/3`, `RoseTTAFold`, `ColabFold`, `Foldseek`, and `ESM-2`, with a focus on isoform-level structural diversity across genome–transcriptome–proteome layers.  
-(Reference: [3DisoGalaxy](https://feliciajiangbio.github.io/3DisoGalaxy/))
+- **My research focuses on:**
 
-### 🧫 Tumor Heterogeneity & Splicing  
-Dissect tumor complexity driven by alternative splicing using `long-read RNA-seq`, `short-read RNA-seq`, `Ribo-seq`, and `PacBio genome`. Emphasis on foldome-level isoform characterization in cancer.  
-(Reference: [3DisoGalaxy](https://feliciajiangbio.github.io/3DisoGalaxy/))
-
-### 📈 Clinical Predictive Modeling  
-Build deep learning models (e.g., `GCN`, `Transformer`) for cancer subtype classification, metastasis risk prediction, and drug response modeling.  
-(Reference: [3DisoDeepPF](https://github.com/FeliciaJiangBio/3DisoDeepPF))
-
-### 💊 Computation-aided Drug Design  
-Isoform-specific drug and antibody modeling using tools like `Schrödinger`, `AutoDock Vina`, `Rosetta`, `HDOCK`, `GROMACS`, and `CHARMM-GUI`.  
-(Reference: [3DisoTarget](https://github.com/FeliciaJiangBio/3DisoTarget))
-
-### 🧪 Biomarker Discovery  
-Integrate `genomics`, `transcriptomics`, `ribosome profiling`, and `structural modeling` to identify robust biomarkers in cancer.  
-(Reference: [3DisoTransFold](https://github.com/CityUHK-CompBio/3Diso-TransFold))
-
+| Research Area                    | Expertise                                                                                               | Reference Project                          |
+|---------------------------------|--------------------------------------------------------------------------------------------------------|--------------------------------------------|
+| 🧬 Protein Structure & Evolution | Large-scale prediction and analysis using AlphaFold2/3, RoseTTAFold, ColabFold, Foldseek, and ESM-2. Focus on isoform-level structural diversity across genome–transcriptome–proteome layers. | [3DisoGalaxy](https://feliciajiangbio.github.io/3DisoGalaxy/) |
+| 🧫 Tumor Heterogeneity & Splicing | Analyze tumor complexity driven by alternative splicing with long-read RNA-seq, short-read RNA-seq, Ribo-seq, and PacBio genome. Isoform-resolved foldome characterization. | [3DisoGalaxy](https://feliciajiangbio.github.io/3DisoGalaxy/) |
+| 📈 Clinical Predictive Modeling   | Develop deep learning models (GCN, Transformer) for cancer subtype classification, metastasis risk, and drug response prediction. | [3DisoDeepPF](https://github.com/FeliciaJiangBio/3DisoDeepPF) |
+| 💊 Computation-aided Drug Design   | Isoform-specific drug and antibody modeling using Schrödinger, AutoDock Vina, Rosetta, HDOCK, GROMACS, CHARMM-GUI. | [3DisoTarget](https://github.com/FeliciaJiangBio/3DisoTarget) |
+| 🧪 Biomarker Discovery             | Integrate genomics, transcriptomics, ribosome profiling, and structural modeling to identify robust cancer biomarkers. | [3DisoTransFold](https://github.com/CityUHK-CompBio/3Diso-TransFold) |
 
 ---
 
