@@ -11,25 +11,23 @@ I am a 2nd-year PhD candidate at the Department of Surgery ([https://www.med.cuh
 
 ### 🧬 Protein Structure & Evolution  
 Large-scale prediction and comparative analysis using `AlphaFold2/3`, `RoseTTAFold`, `ColabFold`, `Foldseek`, and `ESM-2`, with a focus on isoform-level structural diversity across genome–transcriptome–proteome layers.  
-➡️ *See my work*: [3DisoGalaxy](https://feliciajiangbio.github.io/3DisoGalaxy/) — an isoform-level protein structure analysis platform.
+(Reference: [3DisoGalaxy](https://feliciajiangbio.github.io/3DisoGalaxy/))
 
 ### 🧫 Tumor Heterogeneity & Splicing  
 Dissect tumor complexity driven by alternative splicing using `long-read RNA-seq`, `short-read RNA-seq`, `Ribo-seq`, and `PacBio genome`. Emphasis on foldome-level isoform characterization in cancer.  
-➡️ *Related project*: [3DisoGalaxy](https://feliciajiangbio.github.io/3DisoGalaxy/) — applied to splicing-derived structural isoforms in cancer.
+(Reference: [3DisoGalaxy](https://feliciajiangbio.github.io/3DisoGalaxy/))
 
 ### 📈 Clinical Predictive Modeling  
 Build deep learning models (e.g., `GCN`, `Transformer`) for cancer subtype classification, metastasis risk prediction, and drug response modeling.  
-➡️ *For functional prediction models*, refer to: [3DisoDeepPF](https://github.com/FeliciaJiangBio/3DisoDeepPF)
+(Reference: [3DisoDeepPF](https://github.com/FeliciaJiangBio/3DisoDeepPF))
 
 ### 💊 Computation-aided Drug Design  
 Isoform-specific drug and antibody modeling using tools like `Schrödinger`, `AutoDock Vina`, `Rosetta`, `HDOCK`, `GROMACS`, and `CHARMM-GUI`.  
-➡️ *Explore my isoform-targeted screening pipeline*: [3DisoTarget](https://github.com/FeliciaJiangBio/3DisoTarget)
+(Reference: [3DisoTarget](https://github.com/FeliciaJiangBio/3DisoTarget))
 
 ### 🧪 Biomarker Discovery  
 Integrate `genomics`, `transcriptomics`, `ribosome profiling`, and `structural modeling` to identify robust biomarkers in cancer.  
-➡️ *See multi-omics integration in action*: [3DisoTransFold](https://github.com/CityUHK-CompBio/3Diso-TransFold)
-
-
+(Reference: [3DisoTransFold](https://github.com/CityUHK-CompBio/3Diso-TransFold))
 
 
 ---
