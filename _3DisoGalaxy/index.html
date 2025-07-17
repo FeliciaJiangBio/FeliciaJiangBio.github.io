@@ -155,6 +155,42 @@ author_profile: true
         .prominent-link a:hover {
             color: #33CCFF;
         }
+
+        /* 修复图片展示表格样式 */
+        .project-showcase table {
+            background-color: transparent;
+            border: none;
+            margin: 20px auto;
+        }
+
+        .project-showcase td {
+            text-align: center;
+            padding: 15px;
+            border: none;
+            vertical-align: top;
+        }
+
+        .project-showcase img {
+            width: 300px;
+            height: 180px;
+            object-fit: cover;
+            border: 1px solid #00FFFF;
+            box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .project-showcase b {
+            color: #00FFCC;
+            font-size: 1.2em;
+            text-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
+        }
+
+        .project-showcase a:hover img {
+            box-shadow: 0 0 25px rgba(0, 255, 255, 0.8);
+            transform: scale(1.05);
+            transition: all 0.3s ease;
+        }
     </style>
 </head>
 <body>
@@ -203,10 +239,18 @@ author_profile: true
         <p><img src="https://github.com/user-attachments/assets/4429c7c6-8382-457b-bb00-bbc22bf8b3fe" alt="Breast cancer alternative splicing landscape"></p>
 
         <h3>2. Screening Subtype-Specific Targets</h3>
-        <p><img src="https://github.com/user-attachments/assets/b51f9134-de44-4a82-a0ee-d3fe9f88c90f" alt="Screening subtype-specific target"></p>
+        <p><img src="https://github.com/user-attachments/assets/b51f9134-de44-4a82-a0ee-d3fe9f88c90f" alt="Screening subtype-specific targets" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+        <div style="display:none; padding: 20px; border: 1px dashed #00FFFF; text-align: center; color: #00FFCC;">
+            图片加载失败 - Screening Subtype-Specific Targets<br>
+            <small>如果图片无法显示，请检查GitHub链接是否有效</small>
+        </div></p>
 
         <h3>3. Search Target</h3>
-        <p><img src="https://github.com/user-attachments/assets/b3d61430-bc01-4d85-b222-c7d47179cb06" alt="Search target"></p>
+        <p><img src="https://github.com/user-attachments/assets/b3d61430-bc01-4d85-b222-c7d47179cb06" alt="Search target" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+        <div style="display:none; padding: 20px; border: 1px dashed #00FFFF; text-align: center; color: #00FFCC;">
+            图片加载失败 - Search Target<br>
+            <small>如果图片无法显示，请检查GitHub链接是否有效</small>
+        </div></p>
 
         <h3>4. About</h3>
         <p><img src="https://github.com/user-attachments/assets/25c318a8-cffe-4993-8db8-6af0685e5d1e" alt="About"></p>
@@ -318,24 +362,41 @@ author_profile: true
         <p>The pipeline <img src="https://github.com/user-attachments/assets/1eaeaf5c-081d-4d76-b816-bca55d979ad3" alt="3Diso-TransFold Logo" width="100"> <a href="https://github.com/CityUHK-CompBio/3Diso-TransFold">https://github.com/CityUHK-CompBio/3Diso-TransFold</a>, was utilized to evaluate translated ORFs and predict isoform structures from transcriptome-identified transcripts. This process culminated in the construction of **"3DisoGalaxy," a protein structural similarity network** based on multiple structure alignment scores comparing these isoforms. Crucially, ORFs from the master transcriptome were retained only if identified by Ribo-seq analysis, confirming their active participation in the translation process.</p>
         <p>We predicted ORF sequences using TransDecoder, combining BLASTP, HMMER, and machine learning methods. After rigorous filtering of low-confidence and short ORFs, the longest ORF sequence for each isoform was selected, and its protein structure was predicted using AlphaFold-2.3. Structural similarity was then quantified using the TMalign method, collecting pairwise isoform similarities to create a comprehensive "protein universe." Furthermore, functional domains and GO term pathway annotations were integrated into the network using UniProtKB databases.</p>
         <p>This final network provides a unique view into the landscape of cancer-specific alternative splicing-induced protein isoforms, facilitating the precise screening and validation of subtype-specific isoforms for potential therapeutic applications.</p>
-        <p align="center">
-            <table>
-                <tr>
-                    <td align="center">
-                        <a href="http://hkwanglab-compbio.com:3831/">
-                            <img src="https://github.com/user-attachments/assets/4a4482e7-d5b8-4507-afca-ff1521371d32" alt="3DisoGalaxy" width="300"><br>
-                            <b>3DisoGalaxy</b>
-                        </a>
-                    </td>
-                    <td align="center">
-                        <a href="https://github.com/CityUHK-CompBio/3Diso-TransFold">
-                            <img src="https://github.com/user-attachments/assets/c60c5cb0-f865-4689-9130-476feb545052" alt="3DisoTransFold" width="300"><br>
-                            <b>3DisoTransFold</b>
-                        </a>
-                    </td>
-                </tr>
-            </table>
-        </p>
+
+        <div class="project-showcase">
+            <p align="center">
+                <table>
+                    <tr>
+                        <td align="center">
+                            <a href="http://hkwanglab-compbio.com:3831/">
+                                <img src="https://github.com/user-attachments/assets/4a4482e7-d5b8-4507-afca-ff1521371d32" alt="3DisoGalaxy"><br>
+                                <b>3DisoGalaxy</b>
+                            </a>
+                        </td>
+                        <td align="center">
+                            <a href="https://github.com/CityUHK-CompBio/3Diso-TransFold">
+                                <img src="https://github.com/user-attachments/assets/c60c5cb0-f865-4689-9130-476feb545052" alt="3DisoTransFold"><br>
+                                <b>3DisoTransFold</b>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <a href="https://github.com/FeliciaJiangBio/3DisoTarget">
+                                <img src="https://github.com/user-attachments/assets/5d7aab79-7eec-4ae3-9a0a-8a3e8722fb2e" alt="3DisoTarget"><br>
+                                <b>3DisoTarget</b>
+                            </a>
+                        </td>
+                        <td align="center">
+                            <a href="https://github.com/FeliciaJiangBio/3DisoDeepPF">
+                                <img src="https://github.com/user-attachments/assets/80d606fc-bc19-446c-b726-bb0d8e69b42c" alt="3DisoDeepPF"><br>
+                                <b>3DisoDeepPF</b>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </p>
+        </div>
 
         <h3>Workflow Overview</h3>
         <p><img src="https://github.com/user-attachments/assets/d0837471-63ab-4c45-a08f-7454ffe03624" alt="Workflow Overview Diagram"></p>
