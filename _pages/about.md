@@ -9,15 +9,24 @@ redirect_from:
 
 I am a 2nd-year PhD candidate at the Department of Surgery ([https://www.med.cuhk.edu.hk/](https://www.surgery.cuhk.edu.hk/), CUHK Medical School, where I develop computation pipelines and machine learning approaches for cancer genomics under the supervision of [Prof. Xin WANG](https://xinwlab.netlify.app/). My research focuses on:
 
-- **Large-scale Protein Structure Analysis**: Proficient in AlphaFold2/3, RoseTTAFold, ColabFold, Foldseek, and ESM-2 for large-scale protein structure prediction and analysis. Focus on protein structural evolution across genome–transcriptome–proteome layers, especially isoform-level inference.
+🧬 Protein Structure & Evolution
+Large-scale prediction and analysis using AlphaFold2/3, RoseTTAFold, ColabFold, Foldseek, and ESM-2.
+Focus on isoform-level structural diversity across genome–transcriptome–proteome layers. reference my work 3DisoGalaxy (地址https://feliciajiangbio.github.io/3DisoGalaxy/)
 
-- **Multi-omics Tumor Heterogeneity Analysis**: Focus on splicing-driven protein isoform foldome analysis in cancer. Integrate long-read transcriptome, short-read RNA-seq, Ribo-seq, and PacBio-based genome analysis to study tumor complexity.
+🧬 Tumor Heterogeneity & Splicing
+Explore cancer complexity via isoform-resolved foldome using
+long-read RNA-seq, short-read RNA-seq, Ribo-seq, and PacBio genome. reference reference my work 3DisoGalaxy (地址https://feliciajiangbio.github.io/3DisoGalaxy/)
 
-- **Computation-aided Drug Design**: Experienced in molecular docking and simulation using Schrödinger, AutoDock Vina, Rosetta, HDOCK, GROMACS, and CHARMM-GUI. Focus on antibody modeling, drug screening, and protein–ligand interaction analysis.
+📈 Clinical Predictive Modeling
+Develop deep learning models (e.g., GCN, Transformer) for patient stratification, metastasis prediction, and drug response. reference my protein function prediction work 3DisoDeepPF (地址[https://feliciajiangbio.github.io/3DisoGalaxy/](https://github.com/FeliciaJiangBio/3DisoDeepPF))
 
-- **Biomarker Discovery**: Discover robust biomarkers through integrative multi-omics analysis, combining genomics, transcriptomics, proteomics, and structural data.
+💊 Computation-aided Drug Design
+Protein–ligand and antibody modeling with
+Schrödinger, AutoDock Vina, Rosetta, HDOCK, GROMACS, and CHARMM-GUI. referenec my isoform target screening project (https://github.com/FeliciaJiangBio/3DisoTarget).
 
-- **Clinical Predictive Modeling**: Build deep learning models for clinical prediction tasks, including patient stratification, metastasis risk, and drug response.
+🧪 Biomarker Discovery
+Integrative analysis across genomics, transcriptomics, ribosome profiling and structural data
+to discover robust cancer biomarkers.
 
 
 
