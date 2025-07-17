@@ -13,11 +13,13 @@ I am a 2nd-year PhD candidate at the Department of Surgery ([https://www.med.cuh
 
 - **Multi-omics Tumor Heterogeneity Analysis**: Focus on splicing-driven protein isoform foldome analysis in cancer. Integrate long-read transcriptome, short-read RNA-seq, Ribo-seq, and PacBio-based genome analysis to study tumor complexity.
 
+- **Computation-aided Drug Design**: Experienced in molecular docking and simulation using Schrödinger, AutoDock Vina, Rosetta, HDOCK, GROMACS, and CHARMM-GUI. Focus on antibody modeling, drug screening, and protein–ligand interaction analysis.
+
 - **Biomarker Discovery**: Discover robust biomarkers through integrative multi-omics analysis, combining genomics, transcriptomics, proteomics, and structural data.
 
 - **Clinical Predictive Modeling**: Build deep learning models for clinical prediction tasks, including patient stratification, metastasis risk, and drug response.
 
-- **Computation-aided Drug Design**: Experienced in molecular docking and simulation using Schrödinger, AutoDock Vina, Rosetta, HDOCK, GROMACS, and CHARMM-GUI. Focus on antibody modeling, drug screening, and protein–ligand interaction analysis.
+
 
 
 ---
