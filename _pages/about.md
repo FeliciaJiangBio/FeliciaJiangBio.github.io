@@ -9,10 +9,16 @@ redirect_from:
 
 I am a 2nd-year PhD candidate at the Department of Surgery ([https://www.med.cuhk.edu.hk/](https://www.surgery.cuhk.edu.hk/), CUHK Medical School, where I develop computation pipelines and machine learning approaches for cancer genomics under the supervision of [Prof. Xin WANG](https://xinwlab.netlify.app/). My research focuses on:
 
-- **Tumor Heterogeneity Analysis**: Specifically, tumor alternative splicing-induced protein isoform large-scale foldome analysis.
-- **Biomarker Discovery**: Through integrative multi-omics approaches.
-- **Clinical Predictive Modeling**: Utilizing deep learning architectures.
-- **Computation-aided Drug Design**: Developing reconstruction algorithms and methods for computation-aided drug (molecules and antibody) screening and design.
+- **Large-scale Protein Structure Analysis**: Proficient in AlphaFold2/3, RoseTTAFold, ColabFold, Foldseek, and ESM-2 for large-scale protein structure prediction and analysis. Focus on protein structural evolution across genome–transcriptome–proteome layers, especially isoform-level inference.
+
+- **Multi-omics Tumor Heterogeneity Analysis**: Focus on splicing-driven protein isoform foldome analysis in cancer. Integrate long-read transcriptome, short-read RNA-seq, Ribo-seq, and PacBio-based genome analysis to study tumor complexity.
+
+- **Biomarker Discovery**: Discover robust biomarkers through integrative multi-omics analysis, combining genomics, transcriptomics, proteomics, and structural data.
+
+- **Clinical Predictive Modeling**: Build deep learning models for clinical prediction tasks, including patient stratification, metastasis risk, and drug response.
+
+- **Computation-aided Drug Design**: Experienced in molecular docking and simulation using Schrödinger, AutoDock Vina, Rosetta, HDOCK, GROMACS, and CHARMM-GUI. Focus on antibody modeling, drug screening, and protein–ligand interaction analysis.
+
 
 ---
 
