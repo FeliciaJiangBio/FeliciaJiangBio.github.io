@@ -8,14 +8,14 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "Publications"
-    url: /publications/
+  - title: "3DisoGalaxy"
+    url: /3DisoGalaxy/  
 
   - title: "3DisoTransFold"
     url: /3DisoTransFold/      
 
-  - title: "3DisoGalaxy"
-    url: /3DisoGalaxy/  
+  - title: "Publications"
+    url: /publications/
       
   - title: "Blog Posts"
     url: /year-archive/
