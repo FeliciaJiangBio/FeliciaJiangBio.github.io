@@ -56,13 +56,13 @@ Here are some of the key open-source projects I've been leading:
   <tr>
     <td align="center">
       <a href="http://hkwanglab-compbio.com:3831/">
-        <img src="https://github.com/user-attachments/assets/4a4482e7-d5b8-4507-afca-ff1521371d32" width="300"><br>
+        <img src="https://github.com/user-attachments/assets/4a4482e7-d5b8-4507-afca-ff1521371d32" width="300" height="180"><br>
         <b>3DisoGalaxy</b>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/CityUHK-CompBio/3Diso-TransFold">
-        <img src="https://github.com/user-attachments/assets/c60c5cb0-f865-4689-9130-476feb545052" width="300"><br>
+        <img src="https://github.com/user-attachments/assets/c60c5cb0-f865-4689-9130-476feb545052" width="300" height="180"><br>
         <b>3DisoTransFold</b>
       </a>
     </td>
@@ -70,19 +70,20 @@ Here are some of the key open-source projects I've been leading:
   <tr>
     <td align="center">
       <a href="https://github.com/FeliciaJiangBio/3DisoTarget"> 
-        <img src="https://github.com/user-attachments/assets/5d7aab79-7eec-4ae3-9a0a-8a3e8722fb2e" width="300"><br> 
+        <img src="https://github.com/user-attachments/assets/5d7aab79-7eec-4ae3-9a0a-8a3e8722fb2e" width="300" height="180"><br> 
         <b>3DisoTarget</b>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/FeliciaJiangBio/3DisoDeepPF">
-        <img src="https://github.com/user-attachments/assets/80d606fc-bc19-446c-b726-bb0d8e69b42c" width="300"><br>
+        <img src="https://github.com/user-attachments/assets/80d606fc-bc19-446c-b726-bb0d8e69b42c" width="300" height="180"><br>
         <b>3DisoDeepPF</b>
       </a>
     </td>
   </tr>
 </table>
 </p>
+
 
 ---
 
