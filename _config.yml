@@ -159,6 +159,7 @@ include:
   - .htaccess
   - _pages
   - files
+  - _3DisoGalaxy
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -227,6 +228,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  pages:
+    output: true
+    permalink: /:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -234,7 +238,8 @@ defaults:
   # _posts
   - scope:
       path: ""
-      type: posts
+      type: pages
+      # type: posts
     values:
       layout: single
       author_profile: true
@@ -307,6 +312,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
+  - jekyll-include-cache
 
 # Mimic GitHub Pages with --safe
 whitelist:
