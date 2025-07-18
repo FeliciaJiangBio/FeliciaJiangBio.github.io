@@ -159,7 +159,7 @@ include:
   - .htaccess
   - _pages
   - files
-  - _3DisoGalaxy
+  - 3DisoGalaxy
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
