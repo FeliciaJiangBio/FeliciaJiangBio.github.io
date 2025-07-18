@@ -6,6 +6,10 @@ author_profile: false
 ---
 
 {% include base_path %}
-{% for post in site.pages %}
-  {% include archive-single.html %}
+
+{% assign current_path = page.path %}
+{% for p in site.pages %}
+  {% if p.path != current_path %}
+    {% include archive-single.html page=p %}
+  {% endif %}
 {% endfor %}
