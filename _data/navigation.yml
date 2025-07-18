@@ -16,7 +16,10 @@ main:
 
   - title: "Publications"
     url: /publications/
-      
+
+  - title: "3DisoDeepPF"
+    url: /3DisoDeepPF/
+
   - title: "Blog Posts"
     url: /year-archive/
 
