@@ -14,56 +14,73 @@ author_profile: true
     <style>
         body {
             font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-            background-color: #000000; /* Black background */
-            color: #00FFCC; /* High-tech bright green text */
+            background-color: #000000;
+            color: #00FFCC;
             line-height: 1.6;
             margin: 0;
-            padding: 20px;
-            overflow-x: hidden; /* Prevent horizontal scrollbar */
+            padding: 15px;
+            overflow-x: hidden;
+            font-size: 14px;
         }
 
         .container {
             max-width: 1000px;
             margin: 0 auto;
-            background-color: rgba(10, 10, 10, 0.8); /* Slightly transparent dark background */
-            padding: 40px;
+            background-color: rgba(10, 10, 10, 0.8);
+            padding: 25px;
             border-radius: 8px;
-            box-shadow: 0 0 30px rgba(0, 255, 204, 0.2); /* Tech glow */
+            box-shadow: 0 0 30px rgba(0, 255, 204, 0.2);
         }
 
         h1 {
-            color: #00FFFF; /* Cyan title */
+            color: #00FFFF;
             text-align: center;
-            font-size: 2.8em;
-            margin-bottom: 40px;
+            font-size: 1.8em;
+            margin-bottom: 25px;
             text-shadow: 0 0 15px rgba(0, 255, 255, 0.8);
-            letter-spacing: 2px;
+            letter-spacing: 1px;
             border-bottom: 2px solid #00FFFF;
-            padding-bottom: 15px;
+            padding-bottom: 10px;
         }
 
         h2 {
-            color: #00BFFF; /* Blue secondary heading */
-            font-size: 2em;
-            margin-top: 50px;
-            margin-bottom: 20px;
+            color: #00BFFF;
+            font-size: 1.4em;
+            margin-top: 30px;
+            margin-bottom: 15px;
             border-left: 5px solid #00BFFF;
-            padding-left: 15px;
+            padding-left: 12px;
             text-shadow: 0 0 10px rgba(0, 191, 255, 0.5);
         }
 
         h3 {
-            color: #33CCFF; /* Light blue sub-heading */
-            font-size: 1.6em;
-            margin-top: 30px;
-            margin-bottom: 15px;
+            color: #33CCFF;
+            font-size: 1.2em;
+            margin-top: 20px;
+            margin-bottom: 10px;
             border-bottom: 1px dotted #33CCFF;
-            padding-bottom: 5px;
+            padding-bottom: 3px;
+        }
+
+        h4, h5 {
+            color: #33CCFF;
+            font-size: 1.1em;
+            margin-top: 15px;
+            margin-bottom: 8px;
         }
 
         p, li, table {
-            color: #E0E0E0; /* Soft white text */
-            margin-bottom: 10px;
+            color: #E0E0E0;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        .highlight {
+            background-color: rgba(0, 255, 204, 0.2);
+            color: #00FFFF;
+            padding: 2px 4px;
+            border-radius: 3px;
+            font-weight: bold;
         }
 
         ul {
@@ -72,20 +89,20 @@ author_profile: true
         }
 
         ul li {
-            margin-bottom: 5px;
+            margin-bottom: 4px;
         }
 
         table {
             width: 100%;
             border-collapse: collapse;
-            margin: 25px 0;
-            font-size: 0.95em;
+            margin: 20px 0;
+            font-size: 0.85em;
             background-color: rgba(30, 30, 30, 0.7);
             border: 1px solid #00BFFF;
         }
 
         th, td {
-            padding: 12px 15px;
+            padding: 8px 10px;
             text-align: left;
             border-bottom: 1px solid rgba(0, 255, 204, 0.3);
         }
@@ -95,6 +112,7 @@ author_profile: true
             color: #00FFFF;
             font-weight: bold;
             text-transform: uppercase;
+            font-size: 0.8em;
         }
 
         tr:hover {
@@ -105,10 +123,11 @@ author_profile: true
             max-width: 100%;
             height: auto;
             display: block;
-            margin: 20px auto;
+            margin: 15px auto;
             border: 1px solid #00FFFF;
             box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
             border-radius: 5px;
+            cursor: pointer;
         }
 
         a {
@@ -118,35 +137,37 @@ author_profile: true
 
         a:hover {
             text-decoration: underline;
+            color: #33CCFF;
         }
 
         .code-block {
             background-color: #1a1a1a;
             color: #00FFCC;
-            padding: 15px;
+            padding: 12px;
             border-radius: 5px;
             overflow-x: auto;
-            margin: 20px 0;
+            margin: 15px 0;
+            font-size: 13px;
         }
 
         .code-block pre {
             margin: 0;
-            white-space: pre-wrap; /* Allows text to wrap */
-            word-wrap: break-word; /* Allows long words to break */
+            white-space: pre-wrap;
+            word-wrap: break-word;
         }
 
         .prominent-link {
             text-align: center;
-            margin: 40px 0;
+            margin: 30px 0;
         }
         .prominent-link img {
             border: none;
             box-shadow: none;
-            width: 150px; /* Adjust size as needed */
-            margin-bottom: 10px;
+            width: 120px;
+            margin-bottom: 8px;
         }
         .prominent-link a {
-            font-size: 1.8em;
+            font-size: 1.3em;
             color: #00FFCC;
             font-weight: bold;
             text-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
@@ -156,33 +177,32 @@ author_profile: true
             color: #33CCFF;
         }
 
-        /* 修复?片展示表格?式 */
         .project-showcase table {
             background-color: transparent;
             border: none;
-            margin: 20px auto;
+            margin: 15px auto;
         }
 
         .project-showcase td {
             text-align: center;
-            padding: 15px;
+            padding: 10px;
             border: none;
             vertical-align: top;
         }
 
         .project-showcase img {
-            width: 300px;
-            height: 180px;
+            width: 200px;
+            height: 120px;
             object-fit: cover;
             border: 1px solid #00FFFF;
             box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
             border-radius: 5px;
-            margin-bottom: 10px;
+            margin-bottom: 8px;
         }
 
         .project-showcase b {
             color: #00FFCC;
-            font-size: 1.2em;
+            font-size: 1.0em;
             text-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
         }
 
@@ -191,19 +211,42 @@ author_profile: true
             transform: scale(1.05);
             transition: all 0.3s ease;
         }
+
+        @media (max-width: 768px) {
+            body {
+                font-size: 12px;
+                padding: 10px;
+            }
+            .container {
+                padding: 15px;
+            }
+            h1 {
+                font-size: 1.4em;
+            }
+            h2 {
+                font-size: 1.2em;
+            }
+            h3 {
+                font-size: 1.1em;
+            }
+            .project-showcase img {
+                width: 150px;
+                height: 90px;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>The Structural Code of Breast Cancer Heterogeneity: Alternative Splicing-driven Protein Isoform Variation and Functional Diversification</h1>
 
-        <p><img src="https://github.com/user-attachments/assets/4a4482e7-d5b8-4507-afca-ff1521371d32" alt="3DisoGalaxy Logo" width="300"></p>
+        <p><a href="http://hkwanglab-compbio.com:3831/"><img src="https://github.com/user-attachments/assets/4a4482e7-d5b8-4507-afca-ff1521371d32" alt="3DisoGalaxy Logo" width="300"></a></p>
 
         ---
 
         <h2>What is 3DisoGalaxy?</h2>
-        <p><strong>3DisoGalaxy</strong> is a comprehensive bioinformatics resource dedicated to exploring the **protein isoform structural landscape in breast cancer**. This project integrates advanced multi-omics data with artificial intelligence to reveal how alternative splicing events lead to diverse protein isoforms, and how these isoforms influence cancer biology and heterogeneity. Our goal is to provide a platform for identifying novel, subtype-specific therapeutic targets in breast cancer.</p>
-        <p>This repository provides the complete software and documentation necessary to execute the **Long-Read-Translation-Structomics Workflow** that underpins 3DisoGalaxy.</p>
+        <p><span class="highlight">3DisoGalaxy</span> is a comprehensive bioinformatics resource dedicated to exploring the <span class="highlight">protein isoform structural landscape in breast cancer</span>. This project integrates advanced multi-omics data with artificial intelligence to reveal how alternative splicing events lead to diverse protein isoforms, and how these isoforms influence cancer biology and heterogeneity. Our goal is to provide a platform for identifying novel, subtype-specific therapeutic targets in breast cancer.</p>
+        <p>This repository provides the complete software and documentation necessary to execute the <span class="highlight">Long-Read-Translation-Structomics Workflow</span> that underpins 3DisoGalaxy.</p>
 
         ---
 
@@ -211,7 +254,7 @@ author_profile: true
         <p>The success of Claudin18.2 as a targeted therapy in gastric cancer highlights the immense potential of highly specific protein isoforms as therapeutic targets. Understanding the unique expression patterns and structural characteristics of such isoforms is crucial for developing next-generation precision medicines.</p>
         <p>For an in-depth understanding of how highly specific targets like Claudin18.2 are identified and validated, please refer to our detailed report:</p>
         <ul>
-            <li><a href="/3DisoGalaxy/claudin182/">**CLAUDIN18.2 Target: In-Depth Research Report**</a></li>
+            <li><a href="/3DisoGalaxy/claudin182/"><span class="highlight">CLAUDIN18.2 Target: In-Depth Research Report</span></a></li>
         </ul>
         <p>This previous work informs our systematic approach in 3DisoGalaxy to uncover similar promising targets in breast cancer.</p>
 
@@ -232,136 +275,23 @@ author_profile: true
         <h2>Detailed Information on 3DisoGalaxy</h2>
 
         <h3>Abstract</h3>
-        <p>When alternative splicing events result in different mature mRNA translated in the cell and diverse protein isoforms produced, they tend to affect disordered protein domains, which are often involved in functionally important protein–protein interactions. Protein isoforms can also have differences in stability, localization, enzymatic activity, and protein–nucleic acid interactions. The extent to which alternative splicing affects protein and/or cell function or, rather, represents a by-product of transcriptome noise is unclear. Breast cancer is one of the most prevalent cancers for women worldwide. Current studies categorize breast cancer into several subtypes according to different receptors and are treated with different clinical methods. The heterogeneity of breast cancer causes this distinct survival outcome difference, and alternative splicing is one of the mechanisms of this heterogeneity. In this study, a comprehensive survey of protein isoform structures in breast cancer tissue was conducted by integrating multiple omics. 90298 ORFs were annotated and filtered by integrating long-read RNA-seq transcriptome analysis and short-read RNA-seq. 79815 ORFs were identified using Ribosome profiling in total. Ultimately, 46202 protein isoforms were kept, and their structures were predicted with AlphaFold2. The "3Diso-TransFold" pipeline constructed the "3DisoGalaxy" protein structural similarity network based on multiple structure alignment scores with evaluated translated ORFs and obtained isoform structures. ORFs from the master transcriptome were retained only if identified by Ribo-seq, supporting their translation. The network reveals breast cancer and TNBC-specific isoforms, enabling subtype-specific therapeutic screening and validation.</p>
+        <p>When <span class="highlight">alternative splicing events</span> result in different mature mRNA translated in the cell and diverse protein isoforms produced, they tend to affect <span class="highlight">disordered protein domains</span>, which are often involved in functionally important protein–protein interactions. Protein isoforms can also have differences in <span class="highlight">stability, localization, enzymatic activity</span>, and protein–nucleic acid interactions. The extent to which alternative splicing affects protein and/or cell function or, rather, represents a by-product of transcriptome noise is unclear. <span class="highlight">Breast cancer</span> is one of the most prevalent cancers for women worldwide. Current studies categorize breast cancer into several subtypes according to different receptors and are treated with different clinical methods. The <span class="highlight">heterogeneity of breast cancer</span> causes this distinct survival outcome difference, and alternative splicing is one of the mechanisms of this heterogeneity. In this study, a comprehensive survey of protein isoform structures in breast cancer tissue was conducted by integrating multiple omics. <span class="highlight">90298 ORFs</span> were annotated and filtered by integrating long-read RNA-seq transcriptome analysis and short-read RNA-seq. <span class="highlight">79815 ORFs</span> were identified using Ribosome profiling in total. Ultimately, <span class="highlight">46202 protein isoforms</span> were kept, and their structures were predicted with AlphaFold2. The <span class="highlight">"3Diso-TransFold" pipeline</span> constructed the <span class="highlight">"3DisoGalaxy" protein structural similarity network</span> based on multiple structure alignment scores with evaluated translated ORFs and obtained isoform structures. ORFs from the master transcriptome were retained only if identified by Ribo-seq, supporting their translation. The network reveals <span class="highlight">breast cancer and TNBC-specific isoforms</span>, enabling subtype-specific therapeutic screening and validation.</p>
         <p><img src="https://github.com/user-attachments/assets/32d0ddfd-540f-49fb-aab3-fd657c5e5d14" alt="Atlas Plan"></p>
 
         <h3>1. Breast Cancer Alternative Splicing Landscape with Protein Isoform Structure</h3>
         <p><img src="https://github.com/user-attachments/assets/4429c7c6-8382-457b-bb00-bbc22bf8b3fe" alt="Breast cancer alternative splicing landscape"></p>
 
         <h3>2. Screening Subtype-Specific Targets</h3>
-        <p><img src="https://github.com/user-attachments/assets/b51f9134-de44-4a82-a0ee-d3fe9f88c90f" alt="Screening subtype-specific targets" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-        <div style="display:none; padding: 20px; border: 1px dashed #00FFFF; text-align: center; color: #00FFCC;">
-            ?片加?失? - Screening Subtype-Specific Targets<br>
-            <small>如果?片?法?示，??查GitHub?接是否有效</small>
-        </div></p>
+        <p><img src="https://github.com/user-attachments/assets/b51f9134-de44-4a82-a0ee-d3fe9f88c90f" alt="Screening subtype-specific targets"></p>
 
         <h3>3. Search Target</h3>
-        <p><img src="https://github.com/user-attachments/assets/b3d61430-bc01-4d85-b222-c7d47179cb06" alt="Search target" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
-        <div style="display:none; padding: 20px; border: 1px dashed #00FFFF; text-align: center; color: #00FFCC;">
-            ?片加?失? - Search Target<br>
-            <small>如果?片?法?示，??查GitHub?接是否有效</small>
-        </div></p>
+        <p><img src="https://github.com/user-attachments/assets/b3d61430-bc01-4d85-b222-c7d47179cb06" alt="Search target"></p>
 
         <h3>4. About</h3>
         <p><img src="https://github.com/user-attachments/assets/25c318a8-cffe-4993-8db8-6af0685e5d1e" alt="About"></p>
 
-        <h3>Usage Tutorial</h3>
-        <p>A detailed usage tutorial, including visual guides, is available:</p>
-        <p><a href="https://github.com/user-attachments/assets/8dfa4606-e436-4f61-b266-b5d85d438543">https://github.com/user-attachments/assets/8dfa4606-e436-4f61-b266-b5d85d438543</a></p>
-
-        <h3>Digital Object Identifiers (DOIs) for Datasets</h3>
-        <p>The datasets used in this study, generated through the integration of multi-omics and AI methods to analyze alternative splicing-driven proteoforms, are available on Zenodo (10.5281/zenodo14865747).</p>
-        <table>
-            <thead>
-                <tr>
-                    <th>Categories3 Dataset</th>
-                    <th>Project No.</th>
-                    <th>Type</th>
-                    <th>Sample Size</th>
-                    <th>Subtypes</th>
-                    <th>Sequencing Method</th>
-                    <th>Sequencing Platform</th>
-                    <th>Additional Information</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Assembly</td>
-                    <td>PacBio (in-house)</td>
-                    <td>BC Tissue</td>
-                    <td>35</td>
-                    <td>Basal, Her2, LumA, LumB, NAT</td>
-                    <td>PacBio long-read mRNA-seq</td>
-                    <td>PacBio Sequel 2</td>
-                    <td>Clinical info</td>
-                </tr>
-                <tr>
-                    <td>Discovery set</td>
-                    <td>PRJNA975550</td>
-                    <td>BC Tissue</td>
-                    <td>86</td>
-                    <td>TNBC, Her2, LumA, LumB, NAT</td>
-                    <td>mRNA-seq</td>
-                    <td>Illumina HiSeq 4000</td>
-                    <td>Clinical info cannot match, no RFS</td>
-                </tr>
-                <tr>
-                    <td>Microbial</td>
-                    <td>PRJNA839244</td>
-                    <td>BC Tissue</td>
-                    <td>23</td>
-                    <td>TNBC, Her2, LumA, LumB, NAT</td>
-                    <td>mRNA-seq</td>
-                    <td>NextSeq 550</td>
-                    <td>Clinical info, no RFS</td>
-                </tr>
-                <tr>
-                    <td>Validation set</td>
-                    <td>PRJNA486023</td>
-                    <td>BC Tissue</td>
-                    <td>90</td>
-                    <td>TNBC, NAT</td>
-                    <td>mRNA-seq</td>
-                    <td>Illumina HiSeq</td>
-                    <td>Clinical info, RFS</td>
-                </tr>
-                <tr>
-                    <td>Fusion</td>
-                    <td>PRJNA251383</td>
-                    <td>BC Tissue</td>
-                    <td>140</td>
-                    <td>TNBC, ER, NAT</td>
-                    <td>mRNA-seq</td>
-                    <td>Illumina HiSeq 2000</td>
-                    <td>Clinical information</td>
-                </tr>
-                <tr>
-                    <td>Her2</td>
-                    <td>PRJNA1018108</td>
-                    <td>BC Tissue</td>
-                    <td>156</td>
-                    <td>Her2, NAT</td>
-                    <td>mRNA-seq</td>
-                    <td>NovaSeq 6000</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>Ribosome profiling</td>
-                    <td>PRJNA898352</td>
-                    <td>BC Cell line</td>
-                    <td>24</td>
-                    <td>-</td>
-                    <td>Ribo-seq & mRNA-seq</td>
-                    <td>Illumina HiSeq 2500</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>Ribosome profiling</td>
-                    <td>PRJNA523167</td>
-                    <td>BC Cell line</td>
-                    <td>18</td>
-                    <td>-</td>
-                    <td>Ribo-seq</td>
-                    <td>Illumina HiSeq 4000</td>
-                    <td>-</td>
-                </tr>
-            </tbody>
-        </table>
-
         <h3>3DisoGalaxy & 3DisoTranFold Pipeline</h3>
-        <p>The pipeline <img src="https://github.com/user-attachments/assets/1eaeaf5c-081d-4d76-b816-bca55d979ad3" alt="3Diso-TransFold Logo" width="100"> <a href="https://github.com/CityUHK-CompBio/3Diso-TransFold">https://github.com/CityUHK-CompBio/3Diso-TransFold</a>, was utilized to evaluate translated ORFs and predict isoform structures from transcriptome-identified transcripts. This process culminated in the construction of **"3DisoGalaxy," a protein structural similarity network** based on multiple structure alignment scores comparing these isoforms. Crucially, ORFs from the master transcriptome were retained only if identified by Ribo-seq analysis, confirming their active participation in the translation process.</p>
-        <p>We predicted ORF sequences using TransDecoder, combining BLASTP, HMMER, and machine learning methods. After rigorous filtering of low-confidence and short ORFs, the longest ORF sequence for each isoform was selected, and its protein structure was predicted using AlphaFold-2.3. Structural similarity was then quantified using the TMalign method, collecting pairwise isoform similarities to create a comprehensive "protein universe." Furthermore, functional domains and GO term pathway annotations were integrated into the network using UniProtKB databases.</p>
-        <p>This final network provides a unique view into the landscape of cancer-specific alternative splicing-induced protein isoforms, facilitating the precise screening and validation of subtype-specific isoforms for potential therapeutic applications.</p>
+        <p>The pipeline <a href="https://github.com/CityUHK-CompBio/3Diso-TransFold"><img src="https://github.com/user-attachments/assets/1eaeaf5c-081d-4d76-b816-bca55d979ad3" alt="3Diso-TransFold Logo" width="80"></a> <a href="https://github.com/CityUHK-CompBio/3Diso-TransFold">https://github.com/CityUHK-CompBio/3Diso-TransFold</a>, was utilized to evaluate translated ORFs and predict isoform structures from transcriptome-identified transcripts. This process culminated in the construction of <span class="highlight">"3DisoGalaxy," a protein structural similarity network</span> based on multiple structure alignment scores comparing these isoforms. Crucially, ORFs from the master transcriptome were retained only if identified by Ribo-seq analysis, confirming their active participation in the translation process.</p>
 
         <div class="project-showcase">
             <p align="center">
@@ -398,112 +328,50 @@ author_profile: true
             </p>
         </div>
 
-        <h3>Workflow Overview</h3>
-        <p><img src="https://github.com/user-attachments/assets/d0837471-63ab-4c45-a08f-7454ffe03624" alt="Workflow Overview Diagram"></p>
-        <p>The workflow orchestrates the comprehensive analysis from long-read RNA-seq data to the prediction of protein isoform structures and the construction of the structural similarity network.</p>
-
         <h3>How to Use This Repository and Quick Start</h3>
-        <p>The core methodology involves retaining master transcriptome ORFs only if validated by Ribo-seq, ensuring their translation. ORFs are predicted using TransDecoder (BLASTP, HMMER, and machine learning), filtered for quality, and then the longest sequence per isoform undergoes AlphaFold-2.3 structure prediction. TMalign calculates pairwise isoform similarities, forming a "protein universe," annotated with functional domains and GO terms from UniProtKB. This network pinpoints cancer-specific isoforms for subtype-specific therapeutic screening and validation.</p>
 
-        <h4>Repository Organization</h4>
-        <p>This repository is organized into distinct modules for data processing, structural prediction, and network construction. The workflow is primarily written in **Python and Bash scripting**, allowing for flexible and scalable execution. We encourage community contributions and feedback to further enhance this resource.</p>
-
-        <h4>Quick Start Guide</h4>
-        <p>This quick start guide assumes you are running Python version 3.10 and CUDA version 11.6.</p>
-
-        <h5>Prerequisites</h5>
+        <h4>Prerequisites</h4>
         <ol>
-            <li><strong>AlphaFold2.3</strong>: Download and install from [AlphaFold2.3 Link]</li>
-            <li><strong>PacBio tools</strong>: Installation instructions [PacBio Link]</li>
-            <li><strong>TransDecoder</strong>: Installation instructions [TransDecoder Link]</li>
-            <li><strong>TALON</strong>: Installation instructions [TALON Link]</li>
-            <li><strong>RSEM</strong>: Installation instructions [RSEM Link]</li>
-            <li><strong>STAR</strong>: Installation instructions [STAR Link]</li>
-            <li><strong>ProteinVec</strong>: Installation instructions [ProteinVec Link]</li>
-            <li><strong>DeepLoc</strong>: Installation instructions [DeepLoc Link]</li>
-            <li><strong>Autodock</strong>: Installation instructions [Autodock Link]</li>
-            <li><strong>Foldseek</strong>: Installation instructions [Foldseek Link]</li>
-            <li><strong>ColabFold</strong>: Installation instructions [ColabFold Link]</li>
+            <li><strong>AlphaFold2.3</strong>: <a href="https://github.com/deepmind/alphafold">https://github.com/deepmind/alphafold</a></li>
+            <li><strong>PacBio tools</strong>: <a href="https://github.com/PacificBiosciences/pbbioconda">https://github.com/PacificBiosciences/pbbioconda</a></li>
+            <li><strong>TransDecoder</strong>: <a href="https://github.com/TransDecoder/TransDecoder">https://github.com/TransDecoder/TransDecoder</a></li>
+            <li><strong>TALON</strong>: <a href="https://github.com/mortazavilab/TALON">https://github.com/mortazavilab/TALON</a></li>
+            <li><strong>RSEM</strong>: <a href="https://github.com/deweylab/RSEM">https://github.com/deweylab/RSEM</a></li>
+            <li><strong>STAR</strong>: <a href="https://github.com/alexdobin/STAR">https://github.com/alexdobin/STAR</a></li>
+            <li><strong>Foldseek</strong>: <a href="https://github.com/steineggerlab/foldseek">https://github.com/steineggerlab/foldseek</a></li>
+            <li><strong>ColabFold</strong>: <a href="https://github.com/deepmind/alphafold">https://github.com/deepmind/alphafold</a></li>
         </ol>
 
-        <h5>Installation Steps</h5>
+        <h4>Installation Steps</h4>
         <div class="code-block">
             <pre><code># Create conda environment
 conda create -n 3disotf python=3.10
 conda activate 3disotf
-# Install primary dependencies (adjust as needed for specific tools)
-# For example, if 3DisoTransFold has a PyPI package or conda recipe:
-# conda install 3DisoTransFold
-# Otherwise, direct dependency installations may be required.
 
-# Clone the main repository (choose one)
+# Clone the main repository
 git clone https://github.com/CityUHK-CompBio/3Diso-TransFold
-# OR
-git clone https://github.com/TJiangBio/3DisoGalaxy
-
-# Navigate into the cloned directory
-cd 3DisoGalaxy
-</code></pre>
+cd 3DisoGalaxy</code></pre>
         </div>
 
-        <h5>Running the Pipeline</h5>
+        <h4>Running the Pipeline</h4>
         <div class="code-block">
             <pre><code># Execute the main pipeline script
-bash main.sh
-</code></pre>
+bash main.sh</code></pre>
         </div>
-
-        <h3>Documentation and Workflow Details</h3>
-        <p>The pipeline comes with detailed documentation available in the Wiki section of the repository, covering:</p>
-        <ul>
-            <li>Third-party tools and their integration</li>
-            <li>Input parameters and file formats</li>
-            <li>Output files and their interpretation</li>
-            <li>Comprehensive descriptions of pipeline processes</li>
-            <li>Usage Vignettes:
-                <ul>
-                    <li>[Vignette 1 Link]</li>
-                    <li>[Vignette 2 Link]</li>
-                </ul>
-            </li>
-        </ul>
 
         <h3>Contributors</h3>
         <ul>
             <li>Felicia Jiang</li>
+            <li>Runhao Zhao</li>
+            <li>Chenchen Xu</li>
             <li>Justin</li>
             <li>Hao Hao</li>
         </ul>
-        <p>This is a joint project between [collaborating organizations].</p>
-
-        <h3>Acknowledgements</h3>
-        <p>We extend our sincere gratitude to **Cosmograph: GPU-accelerated Force Graph Layout and Rendering** (Rokotyan, N., Stukova, O., Kolmakova D. & Ovsyannikov, D., 2022) for providing an intuitive and efficient platform for visualizing protein similarity networks, which was instrumental in exploring complex topologies and cluster associations within our study. The clear presentation capabilities of Cosmograph were crucial for interpreting relationships between protein structures and functions. We are also deeply thankful to **Mol\*** for its advanced capabilities in visualizing protein structures in three dimensions. This tool enabled precise exploration of structural details and interactions, offering critical insights into protein similarity mechanisms and their biological relevance for metastasis prediction. Both visualization tools were invaluable for data interpretation and for presenting our findings clearly and accessibly.</p>
 
         <h3>Citation</h3>
-        <p>If you utilize this pipeline or the generated data in your research, please cite our forthcoming publication:</p>
         <div class="code-block">
-            <pre><code>Jiang, F., et al. (2025). The Structural Code of Breast Cancer Heterogeneity: Alternative Splicing-driven Proteoform Variation and Functional Diversification. [Journal Name] Manuscript: [Paper Title]
-</code></pre>
+            <pre><code>Jiang, F., et al. (2025). The Structural Code of Breast Cancer Heterogeneity: Alternative Splicing-driven Proteoform Variation and Functional Diversification. [Journal Name]</code></pre>
         </div>
-        <p>Further DOI information for specific datasets will be provided here upon publication:</p>
-        <table>
-            <thead>
-                <tr>
-                    <th>DOI</th>
-                    <th>Description</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>[![DOI](badge_url)](doi_link)</td>
-                    <td>Contains...</td>
-                </tr>
-                <tr>
-                    <td>[![DOI](badge_url)](doi_link)</td>
-                    <td>Contains...</td>
-                </tr>
-            </tbody>
-        </table>
     </div>
 </body>
 </html>
